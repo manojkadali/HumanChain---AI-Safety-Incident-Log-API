@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header {
+  margin-top: 20px;
+  margin-bottom:40px;
+  text-align: center;
+  background-color: #88ff8c;
+  
+}
+
+h1 {
+  color: #333;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+button {
+  padding: 8px 15px;
+  cursor: pointer;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+.error-message {
+  color: #dc3545;
+  margin: 10px 0;
+}
+
+.filter-container {
+  margin-bottom: 15px;
+}
+
+.filter-btn {
+  margin-right: 10px;
+  background: #f8f9fa;
+  color: #333;
+}
+
+.filter-btn.active {
+  background: #007bff;
+  color: white;
+}
+
+.items-list {
+  display: grid;
+  gap: 15px;
+}
+
+.item-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 4px;
+  background: white;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.item-category {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+.item-category.low { background: #e9ecef; }
+.item-category.medium { background: #fff3cd; }
+.item-category.high { background: #f8d7da; }
+
+.item-timestamp {
+  color: #6c757d;
+  font-size: 0.85em;
+  margin-top: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.delete-btn {
+  background: #dc3545;
+}
+
+.delete-btn:hover {
+  background: #c82333;
+}
+
+.loading {
+  text-align: center;
+  padding: 20px;
+  color: #6c757d;
+}
+
+.empty-message {
+  text-align: center;
+  padding: 20px;
+  color: #6c757d;
+}
+
+.toggle-complete {
+  margin-right: 10px;
+  background: #6c757d;
+}
+
+.toggle-complete:hover {
+  background: #5a6268;
+}
