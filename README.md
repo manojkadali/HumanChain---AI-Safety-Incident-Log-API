@@ -29,6 +29,7 @@ open terminal for that project folder
 npm install
 
 3.Configure environment variables
+
 create .env file in the Humanchain folder
 PORT: Port on which the server will listen (default: 3000).
 MongoDB connection string. For Atlas, use your cluster URI.
