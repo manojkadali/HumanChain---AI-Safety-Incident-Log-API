@@ -11,30 +11,30 @@ Prerequisites
 3. install mongoDB Community edition with compass(GUI), or mongoDB Atlas connection string.
 
 Installation & Running Locally
-Step 1. Clone the repository or download the zip file
+1. Clone the repository or download the zip file
  ![image](https://github.com/user-attachments/assets/fa7a20c7-528a-4efa-8d4c-78909bd7070a)
 
-Step 2.install dependencies
-   1.open terminal for that project folder
-   2.npm install
+2.install dependencies : 
+   ->open terminal for that project folder
+   ->npm install
 
-Step 3.Configure environment variables
-  1.create .env file in the Humanchain folder.
-  2.PORT: Port on which the server will listen (default: 3000).
-  3.MongoDB connection string. For Atlas, use your cluster URI.
+3.Configure environment variables : 
+  ->create .env file in the Humanchain folder.
+  ->PORT: Port on which the server will listen (default: 3000).
+  ->MongoDB connection string. For Atlas, use your cluster URI.
  
   1.PORT=3000.
   2.MONGODB_URI=mongodb://localhost:27017/incident-log.
   ![image](https://github.com/user-attachments/assets/ca5c27da-ba1e-4f42-ae2c-af2f98bd1263)
 
 
-Step 4. Establish connection with mongodb compass by giving the same URI in mongoDB
+4. Establish connection with mongodb compass by giving the same URI in mongoDB
 ![image](https://github.com/user-attachments/assets/925ad8c5-7171-45f2-aee7-d84f79d49837)
 
-Step5.Start the server
-  npm run rev 
+5.Start the server : 
+  ->npm run rev 
 
-Step 6: Open the browser and go to localhost:3000
+6: Open the browser and go to localhost:3000
 ![image](https://github.com/user-attachments/assets/ed80b825-270e-4ab1-bef3-bd90c53a4b0e)
 
 
