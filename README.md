@@ -7,8 +7,10 @@ This repository contains a simple RESTful API for logging and managing AI safety
 VIDEO EXPLANATIONS:
 Local setup Video for HumanChain Project:
 https://drive.google.com/file/d/1TG9c5JdXTtdS45OdyUzDqaWtlH_25ne6/view?usp=sharing
+
 Project Overview video:
 https://drive.google.com/file/d/1EbEbMy3MDzWL9CZGFA90haIfPEIQk33k/view?usp=sharing
+
 PostMan API Testing:
 https://drive.google.com/file/d/1EbEbMy3MDzWL9CZGFA90haIfPEIQk33k/view?usp=sharing
 
