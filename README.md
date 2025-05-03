@@ -4,6 +4,13 @@ This repository contains a simple RESTful API for logging and managing AI safety
 
 ![image](https://github.com/user-attachments/assets/667cde00-0310-4706-ac74-f87b385e9eb9)
 
+VIDEO EXPLANATIONS:
+Local setup Video for HumanChain Project:
+https://drive.google.com/file/d/1TG9c5JdXTtdS45OdyUzDqaWtlH_25ne6/view?usp=sharing
+Project Overview video:
+https://drive.google.com/file/d/1EbEbMy3MDzWL9CZGFA90haIfPEIQk33k/view?usp=sharing
+PostMan API Testing:
+https://drive.google.com/file/d/1EbEbMy3MDzWL9CZGFA90haIfPEIQk33k/view?usp=sharing
 
 Prerequisites
 1. install Node.js v14 or higher( install from nodejs.org).
@@ -36,5 +43,6 @@ Installation & Running Locally
 
 6: Open the browser and go to localhost:3000
 ![image](https://github.com/user-attachments/assets/ed80b825-270e-4ab1-bef3-bd90c53a4b0e)
+
 
 
